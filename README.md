@@ -27,9 +27,8 @@
 
 * [OpenLANE Overview](#about-the-project)
   * [Installation](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+* [The OpenLANE Architecture](#openLANE-Arch)
+  * [Design Stages](#design-stages)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -52,11 +51,11 @@ For a complete step in installing OpenLANE, please follow steps at https://githu
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## The OpenLANE Architecture
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Design Stages
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
