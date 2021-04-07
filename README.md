@@ -103,9 +103,9 @@ OpenLANE flow consists of several stages. By default all flow steps are run in s
         CVC - Performs Circuit Validity Checks
 
 For more information on openLANE, please refer to these resources:
-https://github.com/efabless/openlane
+https://github.com/efabless/openlane 
 https://www.youtube.com/watch?v=EczW2IWdnOM
-
+<!-- DAY 1 -->
 ## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### How to talk to computers 
 ### SoC design and OpenLANE
