@@ -29,8 +29,8 @@
   * [Installation](#built-with)
 * [The OpenLANE Architecture](#openLANE-Arch)
   * [Design Stages](#design-stages)
-* [The OpenLANE Architecture](#openLANE-Arch)
-  * [Design Stages](#design-stages)
+* [Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130 Day 1)
+  * [SKY130_D1_SK1 - How to talk to computers](#SKY130-D1-SK1)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -104,17 +104,8 @@ For more information on openLANE, please refer to these resources:
 https://github.com/efabless/openlane
 https://www.youtube.com/watch?v=EczW2IWdnOM
 
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
+## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
+### SKY130_D1_SK1 - How to talk to computers 
 
 
 <!-- USAGE EXAMPLES -->
