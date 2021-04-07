@@ -47,9 +47,7 @@ OpenLANE is an automated RTL to GDSII flow based on several components including
 
 ### Installation
 
-* []()
-* []()
-* []()
+For a complete step in installing OpenLANE, please follow steps at https://github.com/efabless/openlane.
 
 
 
