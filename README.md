@@ -105,9 +105,9 @@ https://www.youtube.com/watch?v=EczW2IWdnOM
 ### How to talk to computers 
 This section is an introduction to computers and chips with related terms and concepts. It covers:
  1. Introduction to QFN-48 Package, chip, pads, core, die and IPs
- 2. Introduction to RISC-V \n
+ 2. Introduction to RISC-V \
  This is a brief introcution of the RISC-V ISA(Instruction Set Architecture).
- 3. From Software Applications to Hardware
+ 3. From Software Applications to Hardware\
  This sub-topic gives a brief overview on the processes such as linking, compilation in transforming user-coded application programs to hardware readable codes.
 ### SoC design and OpenLANE
 This sub-section gives a detailed overiview of OpenLANE and how its flow works. In addition, it discusses the tools that are incorporated in OpenLANE flow which are used for the end to end RTL to GDSII. The official github page for OpenLANE (https://github.com/efabless/openlane ) gives a detailed description and further links to pages for further study on this topic.
