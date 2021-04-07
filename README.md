@@ -29,7 +29,7 @@
   * [Installation](#built-with)
 * [The OpenLANE Architecture](#openLANE-Arch)
   * [Design Stages](#design-stages)
-* [Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130 Day 1)
+* [Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130-Day-1)
   * [SKY130_D1_SK1 - How to talk to computers](#SKY130-D1-SK1)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
