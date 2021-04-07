@@ -53,10 +53,10 @@ For a complete step in installing OpenLANE, please follow steps at https://githu
 <!-- GETTING STARTED -->
 ## The OpenLANE Architecture
 
-To get a local copy up and running follow these simple steps.
+The figure below shows the OpenLANE architecture
 <p align="center">
   <a href="https://github.com/efabless/openlane/blob/master/docs/_static/openlane.flow.1.png">
-    <img src="https://github.com/efabless/openlane/blob/master/docs/_static/openlane.flow.1.png" alt="Logo" width="800" height="400">
+    <img src="https://github.com/efabless/openlane/blob/master/docs/_static/openlane.flow.1.png" alt="Logo" width="500" height="400">
   </a>
 
  
