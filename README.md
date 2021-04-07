@@ -29,6 +29,8 @@
   * [Installation](#built-with)
 * [The OpenLANE Architecture](#openLANE-Arch)
   * [Design Stages](#design-stages)
+* [The OpenLANE Architecture](#openLANE-Arch)
+  * [Design Stages](#design-stages)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -68,8 +70,6 @@ The figure below shows the OpenLANE architecture
 
 OpenLANE flow consists of several stages. By default all flow steps are run in sequence. Each stage may consist of multiple sub-stages.
 
-interactively as shown here.
-
     Synthesis
         yosys - Performs RTL synthesis
         abc - Performs technology mapping
@@ -100,7 +100,9 @@ interactively as shown here.
         Netgen - Performs LVS Checks
         CVC - Performs Circuit Validity Checks
 
-
+For more information on openLANE, please refer to these resources:
+https://github.com/efabless/openlane
+https://www.youtube.com/watch?v=EczW2IWdnOM
 
 ### Installation
  
