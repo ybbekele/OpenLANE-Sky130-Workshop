@@ -29,8 +29,10 @@
   * [Installation](#built-with)
 * [The OpenLANE Architecture](#openLANE-Arch)
   * [Design Stages](#design-stages)
-* [Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130-Day-1)
-  * [SKY130_D1_SK1 - How to talk to computers](#SKY130-D1-SK1)
+* [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130-Day-1)
+  * [How to talk to computers](#SKY130-D1-SK1)
+  * [SoC design and OpenLANE](#SoC-design-and-OpenLANE)
+  * [Get familiar to open-source EDA tools](#Get-familiar-to-open-source-EDA-tools)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -104,9 +106,10 @@ For more information on openLANE, please refer to these resources:
 https://github.com/efabless/openlane
 https://www.youtube.com/watch?v=EczW2IWdnOM
 
-## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
-### SKY130_D1_SK1 - How to talk to computers 
-
+## Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
+### How to talk to computers 
+### SoC design and OpenLANE
+### Get familiar to open-source EDA tools
 
 <!-- USAGE EXAMPLES -->
 ## Usage
