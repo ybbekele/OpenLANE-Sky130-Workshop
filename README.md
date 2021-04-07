@@ -33,12 +33,7 @@
   * [How to talk to computers](#SKY130-D1-SK1)
   * [SoC design and OpenLANE](#SoC-design-and-OpenLANE)
   * [Get familiar to open-source EDA tools](#Get-familiar-to-open-source-EDA-tools)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
