@@ -144,4 +144,8 @@ After the successful completion of the synthesis part, we can collect/get variou
   openlane/designs/picorv32a/runs/08-04_00-16. <br />
 ## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
 ### Concepts
+
 ### Lab Exercises
+The lab exercises for Day-2 were focusing on floorplanning and placement that was done for the picorv32a design.<br />
+On day-1 we did the synthesis part and if that is successfully finished, we can go for the floorplanning as shown in figure below. We used the command 
+        `run_floorplan`
