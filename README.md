@@ -180,12 +180,13 @@ In addition, we have seen on how to use Magic to review the floor plan layout (w
    ```run_placement```
 
 </p>
-as shown in figure below <br />
+The placement running is shown in figure below <br />
 
 
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Running%20placement.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Running%20placement.png" alt="Logo" width="500" height="200">
+    </p>
 <br />
 As was done for the floorplanning step, we can investigate further on the placed design using Magic view. The figure below shows how Magic depicts our placed design. <br />
 <p align="left">
