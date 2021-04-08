@@ -159,5 +159,6 @@ On day-1 we did the synthesis part and if that is successfully finished, we can 
    ```run_floorplan```
 
 </p>
+
 ![Image description](https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Synthesis%20Succesfull%20%2B%20Start%20Floorplan.png)
 <br />
