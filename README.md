@@ -186,3 +186,9 @@ as shown in figure below <br />
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Running%20placement.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Running%20placement.png" alt="Logo" width="500" height="200">
+<br />
+As was done for the floorplanning step, we can investigate further on the placed design using Magic view. The figure below shows how Magic depicts our placed design. <br />
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png" alt="Logo" width="400" height="300">
+<br />
