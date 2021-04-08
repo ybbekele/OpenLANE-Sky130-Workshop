@@ -29,12 +29,12 @@
   * [Installation](#Installation)
 * [The OpenLANE Architecture](#The-OpenLANE-Architecture)
   * [Design Stages](#Design-stages)
-* [Day 1 \- Inception of open\-source EDA, OpenLANE and Sky130 PDK](#Day-1-Inception-of-open-source-EDA-,-OpenLANE-and-Sky130-PDK)
+* [Day 1 \- Inception of open\-source EDA, OpenLANE and Sky130 PDK](#Day-1-Inception-of-open-source-EDA,-OpenLANE-and-Sky130-PDK)
   * [How to talk to computers](#How-to-talk-to-computers)
   * [SoC design and OpenLANE](#SoC-design-and-OpenLANE)
-* [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Sky130-Day-2)
-  * [Concepts](#Concepts-D2)
-  * [Lab Exercises](#Lab-Day2)
+* [Day 2 \- Good floorplan vs bad floorplan and introduction to library cells](#Day-2-Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
+  * [Concepts](#Concepts)
+  * [Lab Exercises](#Lab-Exercises)
   
 
 
