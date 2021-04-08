@@ -140,14 +140,14 @@ Then the preparation step for using OpenLANE follows which is used mainly to pre
 The next step is running the synthesis of the design under question.
 This is done using the commmand:<br />
         <p align="center">
-        `run_synthesis` 
+        ```run_synthesis``` 
        </p>
        <br />
 After the successful completion of the synthesis part, we can collect/get various statistics including chip area, timing parameters, logic elements' usage and others from the result. In this part of the flow, Yosys and OpenSTA are involved. The results are logged in a log file located in the design specific to that run. For instance in our case the reports and logs are located in <br /> 
   <p align="center">
-  `openlane/designs/picorv32a/runs/08-04_00-16.` 
+  ```openlane/designs/picorv32a/runs/08-04_00-16.``` 
   </p>
-  <br />
+  
 ## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
 ### Concepts
 
@@ -156,7 +156,7 @@ The lab exercises for Day-2 were focusing on floorplanning and placement that wa
 On day-1 we did the synthesis part and if that is successfully finished, we can go for the floorplanning as shown in figure below. We used the command <br />
        <p align="center">
 
-   `run_floorplan`
+   ```run_floorplan```
 
 </p>
        
