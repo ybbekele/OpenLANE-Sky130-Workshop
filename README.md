@@ -123,10 +123,10 @@ The initialization of OpenLANE is shown in figure below.
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/initialization.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/initialization.png" alt="Logo" width="400" height="300">
   </a> 
-    <\>
+    <br />
 Then the preparation step for using OpenLANE follows which is used mainly to prepare the environment for the upcoming tasks as shown below.\
     <p align="center">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png" alt="Logo" width="400" height="300">
   </a>
-      <\>
+      <br />
