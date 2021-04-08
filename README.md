@@ -32,9 +32,9 @@
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130-Day-1)
   * [How to talk to computers](#SKY130-D1-SK1)
   * [SoC design and OpenLANE](#SoC-design-and-OpenLANE)
-* [Day 2 - Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Sky130-Day-2)
+* [Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Sky130-Day-2)
   * [Concepts](#Concepts-D2)
-  * [Lab Exercise](#Lab-Day2)
+  * [Lab Exercises](#Lab-Day2)
   
 
 
@@ -141,4 +141,7 @@ The next step is running the synthesis of the design under question.
 This is done using the commmand:<br />
         run_synthesis <br />
 After the successful completion of the synthesis part, we can collect/get various statistics including chip area, timing parameters, logic elements' usage and others from the result. In this part of the flow, Yosys and OpenSTA are involved. The results are logged in a log file located in the design specific to that run. For instance in our case the reports and logs are located in <br /> 
-  openlane/designs/picorv32a/runs/08-04_00-16.
+  openlane/designs/picorv32a/runs/08-04_00-16. <br />
+## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
+### Concepts
+### Lab Exercises
