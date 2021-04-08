@@ -119,6 +119,7 @@ I did all the experiments with an OpneLANE implementation on my personal worksta
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Directory%20structure.png" alt="Logo" width="400" height="300">
   </a>
   <\>
+![Image description](https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Directory%20structure.png)
 The initialization of OpenLANE is shown in figure below.
   <p align="center">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/initialization.png">
