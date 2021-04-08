@@ -112,5 +112,11 @@ This section is an introduction to computers and chips with related terms and co
 ### SoC design and OpenLANE
 This sub-section gives a detailed overiview of OpenLANE and how its flow works. In addition, it discusses the tools that are incorporated in OpenLANE flow which are used for the end to end RTL to GDSII. The official github page for OpenLANE (https://github.com/efabless/openlane ) gives a detailed description and further links to pages for further study on this topic.
 ### Get familiar to open-source EDA tools
-This sub-section starts from describing the directory structure of OpenLANE in detail. 
+This sub-section starts from describing the directory structure of OpenLANE in detail. The figure below shows the directory structure. 
+I did all the experiments with an OpneLANE implementation on my personal workstation.
+<p align="center">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Directory%20structure.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Directory%20structure.png" alt="Logo" width="500" height="400">
+  </a>
+
 
