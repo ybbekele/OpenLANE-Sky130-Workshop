@@ -147,5 +147,10 @@ After the successful completion of the synthesis part, we can collect/get variou
 
 ### Lab Exercises
 The lab exercises for Day-2 were focusing on floorplanning and placement that was done for the picorv32a design.<br />
-On day-1 we did the synthesis part and if that is successfully finished, we can go for the floorplanning as shown in figure below. We used the command 
-        `run_floorplan`
+On day-1 we did the synthesis part and if that is successfully finished, we can go for the floorplanning as shown in figure below. We used the command <br />
+       <p align="center">
+
+   `run_floorplan`
+
+</p>
+       
