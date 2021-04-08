@@ -32,7 +32,10 @@
 * [Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK](#Sky130-Day-1)
   * [How to talk to computers](#SKY130-D1-SK1)
   * [SoC design and OpenLANE](#SoC-design-and-OpenLANE)
-  * [Get familiar to open-source EDA tools](#Get-familiar-to-open-source-EDA-tools)
+* [Day 2 - Day 2 - Good floorplan vs bad floorplan and introduction to library cells](#Sky130-Day-2)
+  * [Concepts](#Concepts-D2)
+  * [Lab Exercise](#Lab-Day2)
+  
 
 
 
