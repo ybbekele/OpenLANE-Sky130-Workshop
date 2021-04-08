@@ -124,16 +124,16 @@ The initialization of OpenLANE is shown in figure below.
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/initialization.png" alt="Logo" width="400" height="300">
   </a> 
     <br />
-Then the preparation step for using OpenLANE follows which is used mainly to prepare the environment for the upcoming tasks as shown below.Here we followed 3 steps:\
-  1. use command ./flow.tcl -interactive to run OpenLANE in interactive mode.\
-  2. use command package require openlane 0.9 
-  3. use command prep -design <design_name>, which is picorv32a in our case 
+Then the preparation step for using OpenLANE follows which is used mainly to prepare the environment for the upcoming tasks as shown below.Here we followed 3 steps:<br />
+  1. use command ./flow.tcl -interactive to run OpenLANE in interactive mode.<br />
+  2. use command package require openlane 0.9 <br />
+  3. use command prep -design <design_name>, which is picorv32a in our case <br />
     <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png" alt="Logo" width="400" height="300">
   </a>
       <br />
       
-The next step is running the synthesis of the design under question.\
-This is done using the commmand:\
+The next step is running the synthesis of the design under question.
+This is done using the commmand:<br />
         run_synthesis
