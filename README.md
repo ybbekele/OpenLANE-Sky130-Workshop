@@ -200,7 +200,9 @@ As was done for the floorplanning step, we can investigate further on the placed
 ## Day 3 Design library cell using Magic Layout and ngspice characterization
 ### Concepts
 ### Lab Exercises
-The lab exercises for Day 3 are mainly focused on how to use ngspice to characterize cells and using Magic for DRC violation checking. <br />
+PART I <br />
+
+The lab exercises for Day 3 are mainly focused on how to use ngspice to characterize cells and using Magic for DRC violation checking. This part reports the lab activities related to ngspice and characterization of an inverter cell.<br />
 We started by cloning the github repo that is used to design an inverter cell from scratch. The gihub repo is:<br />
 https://github.com/nickson-jose/vsdstdcelldesign <br />
 It is cloned as shown in figure below 
@@ -234,4 +236,7 @@ The plot for the output signal (Y) and input signal (a) as a function of time is
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/ngspice%20plot%20for%20inverter.png" alt="Logo" width="400" height="300">
     </a>
 <br />
-Using this plot, we tried to characterize the inverter circuit that we designed for various characterization parameters such as rise and fall transitions, rise and fall delays.
+Using this plot, we tried to characterize the inverter circuit that we designed for various characterization parameters such as rise and fall transitions, rise and fall delays. <br />
+   
+PART II <br />
+The second part of the lab exercise deals with Magic tool and how to handle DRC rules as pertained to Sky130 technology.
