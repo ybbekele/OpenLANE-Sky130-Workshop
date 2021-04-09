@@ -35,7 +35,9 @@
 * [Day 2 Good floorplan vs bad floorplan and introduction to library cells](#Day-2-Good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
   * [Concepts](#Concepts)
   * [Lab Exercises](#Lab-Exercises)
-  
+* [Day 3 Design library cell using Magic Layout and ngspice characterization](#Day-3-Design-library-cell-using-Magic-Layout-and-ngspice-characterization)
+  * [Concepts](#Concepts)
+  * [Lab Exercises](#Lab-Exercises)
 
 
 
@@ -194,3 +196,10 @@ As was done for the floorplanning step, we can investigate further on the placed
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png" alt="Logo" width="400" height="300">
     </a>
 <br />
+  
+## Day 3 Design library cell using Magic Layout and ngspice characterization
+### Concepts
+### Lab Exercises
+The lab exercises for Day 3 are mainly focused on how to use ngspice to characterize cells and using Magic for DRC violation checking. <br />
+We started by 
+
