@@ -201,5 +201,12 @@ As was done for the floorplanning step, we can investigate further on the placed
 ### Concepts
 ### Lab Exercises
 The lab exercises for Day 3 are mainly focused on how to use ngspice to characterize cells and using Magic for DRC violation checking. <br />
-We started by 
+We started by cloning the github repo that is used to design an inverter cell from scratch. The gihub repo is:<br />
+https://github.com/nickson-jose/vsdstdcelldesign <br />
+It is cloned as shown in figure below 
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/cloning%20vsdstdcelldesign.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/cloning%20vsdstdcelldesign.png" alt="Logo" width="400" height="300">
+    </a>
+<br />
 
