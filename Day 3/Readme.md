@@ -37,7 +37,11 @@ The plot for the output signal (Y) and input signal (a) as a function of time is
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/ngspice%20plot%20for%20inverter.png" alt="Logo" width="400" height="300">
     </a>
 <br />
-Using this plot, we tried to characterize the inverter circuit that we designed for various characterization parameters such as rise and fall transitions, rise and fall delays. <br />
+Using this plot, we tried to characterize the inverter circuit that we designed for various characterization parameters such as: <br />
+   
+   1. Transition time (rise and fall) usually measured 20% - 80% <br />
+   2. Propagation delay (rise and fall) usually measured at 50% ouput to input <br />
+
    
 PART II <br />
 The second part of the lab exercise deals with Magic tool and how to handle DRC rules as pertained to Sky130 technology.
