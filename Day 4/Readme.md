@@ -15,8 +15,8 @@ The result shown below shows that the ports are located at the intersection.<br/
 <br />
 In order to make our own cell that we can use integrating in the picorv32a design we gave names and use parameters for each port. This is done by adding the parameters in Magic as shown below: <br/>
  <p align="left">
-  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/parameters%20for%20the%20ports.png">
-    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/parameters%20for%20the%20ports.png" alt="Logo" width="400" height="300">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Params%20for%20the%20ports.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Params%20for%20the%20ports.png" alt="Logo" width="400" height="300">
     </a>
 <br />
 
