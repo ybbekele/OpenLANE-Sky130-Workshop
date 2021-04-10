@@ -19,4 +19,4 @@ In order to make our own cell that we can use integrating in the picorv32a desig
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/parameters%20for%20the%20ports.png" alt="Logo" width="400" height="300">
     </a>
 <br />
- 
+
