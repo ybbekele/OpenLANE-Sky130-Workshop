@@ -38,7 +38,9 @@
 * [Day 3 Design library cell using Magic Layout and ngspice characterization](#Day-3-Design-library-cell-using-Magic-Layout-and-ngspice-characterization)
   * [Concepts](#Concepts)
   * [Lab Exercises](#Lab-Exercises)
-
+* [Day 4 Pre-layout timing analysis and importance of good clock tree](#Day-4-Pre-layout-timing-analysis-and-importance-of-good-clock-tree)
+  * [Concepts](#Concepts)
+  * [Lab Exercises](#Lab-Exercises)
 
 
 
