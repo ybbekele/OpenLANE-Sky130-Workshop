@@ -52,7 +52,7 @@ As the main aim of this lab part is to detect and mitigate violations, the first
     </a>
 <br />
  On the given design (poly.mag) there was a spacing violation for poly.9 and that got fixed by adding a spacing drc rule for all poly layers in the technology file as: <br />
-  spacing npres *nsd 480 touching_illegal \
-	"poly.resistor spacing to N-tap < %d (poly.9)"
- spacing npres allpolynonres 480 touching_illegal \
-	"poly.resistor spacing to N-tap < %d (poly.9)"
+  spacing npres *nsd 480 touching_illegal \ <br/>
+	"poly.resistor spacing to N-tap < %d (poly.9)" <br/>
+ spacing npres allpolynonres 480 touching_illegal \ <br/>
+	"poly.resistor spacing to N-tap < %d (poly.9)" <br/>
