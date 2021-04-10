@@ -44,4 +44,15 @@ Using this plot, we tried to characterize the inverter circuit that we designed 
 
    
 PART II <br />
-The second part of the lab exercise deals with Magic tool and how to handle DRC rules as pertained to Sky130 technology.
+The second part of the lab exercise deals with Magic tool and how to handle DRC rules as pertained to Sky130 technology. For this part of the lab we cloned the github repository that contains magic .mag file, technology file for Sky130 and a script that runs magic. <br />
+As the main aim of this lab part is to detect and mitigate violations, the first step is to check why the violations are occuring and this is done using why drc command as shown below.<br />
+ <p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/DRC%20why.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/DRC%20why.png" alt="Logo" width="400" height="300">
+    </a>
+<br />
+ On the given design (poly.mag) there was a spacing violation for poly.9 and that got fixed by adding a spacing drc rule for all poly layers in the technology file as: <br />
+  spacing npres *nsd 480 touching_illegal \
+	"poly.resistor spacing to N-tap < %d (poly.9)"
+ spacing npres allpolynonres 480 touching_illegal \
+	"poly.resistor spacing to N-tap < %d (poly.9)"
