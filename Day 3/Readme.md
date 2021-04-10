@@ -56,3 +56,9 @@ As the main aim of this lab part is to detect and mitigate violations, the first
 	"poly.resistor spacing to N-tap < %d (poly.9)" <br/>
  spacing npres allpolynonres 480 touching_illegal \ <br/>
 	"poly.resistor spacing to N-tap < %d (poly.9)" <br/>
+Rerunning Magic including the new rules shows that the DRC violation is now resolved<br/>
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/fixed%20drc%20on%20ploy%209.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/fixed%20drc%20on%20ploy%209.png" alt="Logo" width="400" height="300">
+    </a>
+<br />
