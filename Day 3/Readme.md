@@ -62,3 +62,4 @@ Rerunning Magic including the new rules shows that the DRC violation is now reso
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/fixed%20drc%20on%20ploy%209.png" alt="Logo" width="400" height="300">
     </a>
 <br />
+**** There is a continuous work to include in this lab******
