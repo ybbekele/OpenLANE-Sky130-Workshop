@@ -41,6 +41,10 @@
 * [Day 4 Pre-layout timing analysis and importance of good clock tree](#Day-4-Pre-layout-timing-analysis-and-importance-of-good-clock-tree)
   * [Concepts](#Concepts)
   * [Lab Exercises](#Lab-Exercises)
+* [Day 5 Final steps for RTL2GDS using tritonRoute and openSTA](#Day-5-Final-steps-for-RTL2GDS-using-tritonRoute-and-openSTA)
+  * [Concepts](#Concepts)
+  * [Lab Exercises](#Lab-Exercises)
+* [Acknowledgement](#Acknowledgement)
 
 
 
@@ -108,10 +112,10 @@ For more information on openLANE, please refer to these resources:
 https://github.com/efabless/openlane 
 https://www.youtube.com/watch?v=EczW2IWdnOM
 
-##ACKNOWLEDGEMENT
+## Acknowledgement 
 
-Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)
-Nickson Jose - Teaching Assistant 
-Praharsha - Teaching Assistant 
-Akurathi Radhika - Teaching Assistant 
-Tim Edwards - Founder (Opencircuitdesign) 
+Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd) <br\>
+Nickson Jose - Teaching Assistant <br\>
+Praharsha - Teaching Assistant <br\>
+Akurathi Radhika - Teaching Assistant <br\>
+Tim Edwards - Founder (Opencircuitdesign) <br\>
