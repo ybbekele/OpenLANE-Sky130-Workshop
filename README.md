@@ -111,7 +111,7 @@ https://www.youtube.com/watch?v=EczW2IWdnOM
 ##ACKNOWLEDGEMENT
 
 Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)
-Nickson Jose - Teaching Assistant - One who guided through out the OpenLANE flow
-Praharsha - Teaching Assistant - One who supported on Slack Channel by solving problems
-Akurathi Radhika - Teaching Assistant - One who supported on Slack Channel by solving problems
-Tim Edwards - Founder (Opencircuitdesign) - One who helped me in solving on how to find a specific cell using its name in MAGIC tool
+Nickson Jose - Teaching Assistant 
+Praharsha - Teaching Assistant 
+Akurathi Radhika - Teaching Assistant 
+Tim Edwards - Founder (Opencircuitdesign) 
