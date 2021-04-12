@@ -108,9 +108,9 @@ OpenLANE flow consists of several stages. By default all flow steps are run in s
         Netgen - Performs LVS Checks
         CVC - Performs Circuit Validity Checks
 
-For more information on openLANE, please refer to these resources:
-https://github.com/efabless/openlane 
-https://www.youtube.com/watch?v=EczW2IWdnOM
+For more information on openLANE, please refer to these resources: <br />
+* https://github.com/efabless/openlane <br />
+* https://www.youtube.com/watch?v=EczW2IWdnOM
 
 ## Acknowledgement 
 
