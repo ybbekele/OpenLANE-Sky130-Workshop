@@ -1,5 +1,13 @@
 ## Day 3 Design library cell using Magic Layout and ngspice characterization
 ### Concepts
+The following main concepts are covered under this topic. <br/>
+1. Spice deck creatio for CMOS Inverter <br/>
+ Here the mai steps in creating a spice deck are covered. These include component connectivity, component values, identifying nodes in our cell design and generating a model file. The concepts are alos accompanied by a practical design exmaple which is shwon in the figure below. <br/>
+ <p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%203/Images/Spice%20simulation.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%203/Images/Spice%20simulation.png" alt="Logo" width="400" height="300">
+    </a>
+<br />
 ### Lab Exercises
 PART I <br />
 
