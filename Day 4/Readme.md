@@ -18,8 +18,8 @@ The figure below shows typical delay tables for the given design and constraints
 2. Timing analysis with ideal clocks using OpenSTA<br/>
 Here the timing analysis for ideal clocks. This means that launch as well as capture flip-flops get clock at zero time. In other words, we can assume that clock skew is zero between start and end points. Here the setup time which is time needed for the input at the capture FF for D to reach Qm and Jitter, which is a temporary variation in clock period of the PLL clock source circuit are considered. The jitter is modeled as parameter 'Uncertainity'. The figure below shows the setup time analysis scenario. <br/>
  <p align="left">
-  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clocks.png">
-    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clocks.png" alt="Logo" width="400" height="300">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clock.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clock.png" alt="Logo" width="400" height="300">
     </a>
 <br /> 
 
