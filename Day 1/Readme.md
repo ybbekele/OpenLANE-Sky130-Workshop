@@ -39,5 +39,5 @@ This is done using the commmand:<br />
        <br />
 After the successful completion of the synthesis part, we can collect/get various statistics including chip area, timing parameters, logic elements' usage and others from the result. In this part of the flow, Yosys and OpenSTA are involved. The results are logged in a log file located in the design specific to that run. For instance in our case the reports and logs are located in <br /> 
   <p align="center">
-  ```openlane/designs/picorv32a/runs/08-04_00-16.``` 
+  openlane/designs/picorv32a/runs/08-04_00-16. 
   </p>
