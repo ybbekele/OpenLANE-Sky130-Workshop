@@ -8,6 +8,18 @@ The following main concepts are covered under this topic. <br/>
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%203/Images/Spice%20simulation.png" alt="Logo" width="400" height="300">
     </a>
 <br />
+2. 16-mask CMOS Process <br/>
+The other main concept covered in this part is the 16-mask CMOS manufacturing process. A mask is a specification of geometric shapes that need to be created on a certain layer. Masks are used to create specific patterns of each material in a sequential manner and create a complex pattern of several layers. The main steps in this process are: <br/>
+	* Selecting a substrate
+	* Creating active region for transistor --- LOCOS process
+	* N-well and P-well formation
+	* Formation of gate
+	* Lightly Doped Drain (LDD) formation --- Plasma anisotropic etching
+	* Source and Drain formation --- High temperature annealing
+	* Steps to form contacts and interconnects
+	* Higher level metal formation <br/>
+For further information look at the VSD - Custom Layout course: https://www.udemy.com/course/vlsi-academy-custom-layout/
+	
 ### Lab Exercises
 PART I <br />
 
