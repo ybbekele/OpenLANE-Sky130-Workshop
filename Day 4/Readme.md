@@ -7,8 +7,8 @@ Reference: https://www.synopsys.com/glossary/what-is-static-timing-analysis.html
 1. Timing modelling using delay tables <br/>
  Here one of the timing modelling tools, delay tables, are described in detail and their usage scenario is given in example implementation. Cell delay is the amount of delay from input to output of a logic gate in a path. In the absence of back-annotated delay information from an SDF file, the tool calculates the cell delay from delay tables provided in the logic library for the cell. Typically, a delay table lists the amount of delay as a function of one or more variables, such as input transition time and output load capacitance. From these table entries, the tool calculates each cell delay. <br/>
  There are two critical observations that should be considered in Clock Tree Synthesis (CTS): <br/>
- 1. At every level, each node driving the same load <br/>
- 2. Identical buffer at the same level <br/>
+   * At every level, each node driving the same load <br/>
+   * Identical buffer at the same level <br/>
 The figure below shows typical delay tables for the given design and constraints for loads. <br/>
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Delay%20Tables.png">
@@ -22,7 +22,23 @@ Here the timing analysis for ideal clocks. This means that launch as well as cap
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clock.png" alt="Logo" width="400" height="300">
     </a>
 <br /> 
-
+3. CTS and Timing Analaysis with real clocks using OpenSTA
+In this part the clock that is used is real in that it has physiscal distribution tree and hence delay between its delivery to dfifferent components of the circuit. Clock tree synthesis (CTS) is a process which ensures that all the clock gets distributed evenly to all the sequential elements in the design. The CTS is not a good technique to understand the impact of congestion and timing violations. Therefore, the main goal in CTS stage is to minimize the latency and skew. <br/>
+  Related concepts covered: <br/>
+  * H-Tree <br/>
+  * Buffering <br/>
+  * Clock Net Shielding <br/>
+The two parts of timing analysis, setup and hold timing analysis, are also covered in this part. Any Input to the Flip-Flop in the design must be stable for small amount of time prior to the sampling clock edge. That small amount of time is called Setup Time. Also, the Input to the Flip-Flop must be stable for a minimum amount of time after the sampling clock edge. This time is called Hold Time. The timing analysis scenarios for the two cases are shown below. <br/>
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Setup%20timing%20analysis.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Setup%20timing%20analysis.png" alt="Logo" width="400" height="300">
+    </a>
+<br /> 
+ <p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Hold%20timing%20analysis.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Hold%20timing%20analysis.png" alt="Logo" width="400" height="300">
+    </a>
+<br /> 
 
 ### Lab Exercises
 Part I <br/>
