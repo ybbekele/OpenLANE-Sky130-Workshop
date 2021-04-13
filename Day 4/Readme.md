@@ -92,3 +92,4 @@ The other task that was part of Day 4's lab was using OpenSTA to do static timin
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/optimize%20synthesis%20to%20reduce%20setup%20time%20violations.png" alt="Logo" width="400" height="300">
     </a>
 <br />    
+  This procedure is repeated with a thorough analysis of the design run outputs until we get a slack value that is close to zero (the ideal requirement case).
