@@ -59,4 +59,13 @@ In order to make our own cell that we can use integrating in the picorv32a desig
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Params%20for%20the%20ports.png" alt="Logo" width="400" height="300">
     </a>
 <br />
-
+After this step we extracted our cell as .lef file from Magic using the following sequence of commands. <br/>
+  * save <file_name>.mag <br/>
+  * magic -T <tech_file_path> <.mag_file_in_previous_step> & <br/>
+  * lef write <br/>
+This generates the .lef file that we include in our design (picorv32a). The following figure shows part of our extracted .lef file which shows the cell parameters that we set/defined in eralier steps. <br/>
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/extracted%20lef%20file.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/extracted%20lef%20file.png" alt="Logo" width="200" height="400">
+    </a>
+<br />  
