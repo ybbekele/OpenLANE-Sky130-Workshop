@@ -1,5 +1,29 @@
 ## Day 4 Pre-layout timing analysis and importance of good clock tree
 ### Concepts
+The concepts covered in this part of the workshop are mainly focused on timing analysis using various tools which go with the accompanying lab exercises. Static timing analysis (STA) is a method of validating the timing performance of a design by checking all possible paths for timing violations. STA breaks a design down into timing paths, calculates the signal propagation delay along each path, and checks for violations of timing constraints inside the design and at the input/output interface. <br/>
+Another way to perform timing analysis is to use dynamic simulation, which determines the full behavior of the circuit for a given set of input stimulus vectors. Compared to dynamic simulation, static timing analysis is much faster because it is not necessary to simulate the logical operation of the circuit. STA is also more thorough because it checks all timing paths, not just the logical conditions that are sensitized by a set of test vectors. However, STA can only check the timing, not the functionality, of a circuit design. <br/>
+Reference: https://www.synopsys.com/glossary/what-is-static-timing-analysis.html <br/>
+
+1. Timing modelling using delay tables <br/>
+ Here one of the timing modelling tools, delay tables, are described in detail and their usage scenario is given in example implementation. Cell delay is the amount of delay from input to output of a logic gate in a path. In the absence of back-annotated delay information from an SDF file, the tool calculates the cell delay from delay tables provided in the logic library for the cell. Typically, a delay table lists the amount of delay as a function of one or more variables, such as input transition time and output load capacitance. From these table entries, the tool calculates each cell delay. <br/>
+ There are two critical observations that should be considered in Clock Tree Synthesis (CTS): <br/>
+ 1. At every level, each node driving the same load <br/>
+ 2. Identical buffer at the same level <br/>
+The figure below shows typical delay tables for the given design and constraints for loads. <br/>
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Delay%20Tables.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Delay%20Tables.png" alt="Logo" width="400" height="300">
+    </a>
+<br />
+2. Timing analysis with ideal clocks using OpenSTA<br/>
+Here the timing analysis for ideal clocks. This means that launch as well as capture flip-flops get clock at zero time. In other words, we can assume that clock skew is zero between start and end points. Here the setup time which is time needed for the input at the capture FF for D to reach Qm and Jitter, which is a temporary variation in clock period of the PLL clock source circuit are considered. The jitter is modeled as parameter 'Uncertainity'. The figure below shows the setup time analysis scenario. <br/>
+ <p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clocks.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/Timing%20analysis%20with%20ideal%20clocks.png" alt="Logo" width="400" height="300">
+    </a>
+<br /> 
+
+
 ### Lab Exercises
 Part I <br/>
 
