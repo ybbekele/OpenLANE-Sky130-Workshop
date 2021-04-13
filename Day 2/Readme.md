@@ -1,5 +1,35 @@
 ## Day 2 - Good floorplan vs bad floorplan and introduction to library cells
 ### Concepts
+In this part of the workshop the following main concepts are covered. <br/>
+1. Utilization Factor and Aspect Ratio <br/>
+These parameters are used to describe the utilization of our design from the specified core area. <br/>
+
+Aspect ratio (AR): defines the ratio of the width to height of the chip. The aspect ratio should take into account the number of routing resources available. If there are more horizontal layers, then the rectangle should be long and width should be small and vice versa if there are more vertical layers in the design. <br/>
+
+Utilization Factor: is defined as the percentage of the area that has been utilized in the chip. In the initial stages of the floorplan design, if the size of the chip is unknown, then the starting point of the floorplan design is utilization.<br/>
+
+For more information refer: https://vlsibasic.blogspot.com/2014/01/floorplaning.html <br/>
+
+2. Pre-placed cells <br/>
+Pre-placed cells are cells that are placed manually and won't be affected by the automatic PnR. <br/>
+3. De-coupling Capacitors <br/>
+Decoupling capacitors (decaps) are a popular meansfor reducing power-supply noise in integrated circuits. Since thedecaps are usually inserted in the whitespace of the device layer,decap  management  during  the  floorplanning  stage  is  desirable. On-chip decoupling capacitors(decaps) are widely used to mitigate the power-supply-noise problem. By charging  up during the steady state, decaps canassume the role of the power supply and provide the current needed during the  simultaneous switching of multiple functional blocks.<br/>
+4. Power planning <br/>
+The issue of distributing power in a circuit design is one of the issues that is covered in floorplanning. In order to distribute power efficiently in the circuit it is better to use a distributed approach. <br/>
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%202/images/power%20planning.PNG">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%202/images/power%20planning.PNG" alt="Logo" width="400" height="300">
+  </a>
+<br />
+5. Binding netlist and initial placement design, placement and optimizing placement <br/>
+Placement is the process of finding a suitable physical location for each cell in the block. The placement tool only determine the location of each standard cell on the die. After the inital placement is done, we need to optimize placement design using an estimated wire length & capacitance and based on that inserting repeaters. This results in signal integrity in our design. Here the concept of library cell characterization is also covered. Cell library characterization is a process of analyzing a circuit using static and dynamic methods to generate models suitable for chip implementation flows.
+6. Cell Design and characterization flow <br/>
+The entire cell design flow is revisited in this part. The cell design flow covered in this part is summarized in the figure below. <br/>
+   <p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%202/images/Cell%20design%20flow.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%202/images/Cell%20design%20flow.png" alt="Logo" width="400" height="300">
+  </a>
+<br />    
 
 ### Lab Exercises
 The lab exercises for Day-2 were focusing on floorplanning and placement that was done for the picorv32a design.<br />
