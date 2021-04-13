@@ -72,17 +72,17 @@ This generates the .lef file that we include in our design (picorv32a). The foll
  The next step is incorporating our new cell (sky130_vsdinv) in the original design. The procedures for this step are clearly indicated in https://github.com/nickson-jose/vsdstdcelldesign and are followed in this lab exercise too. After this we run synthesis and see if our new cells are included. One indicator in the synthesis process as whether our cells are included is show below shoing our cells in the component list.<br/>
  <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/an%20indicator%20that%20our%20design%20is%20included%20in%20synthesis.png">
-    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/an%20indicator%20that%20our%20design%20is%20included%20in%20synthesis.png" alt="Logo" width="200" height="400">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/an%20indicator%20that%20our%20design%20is%20included%20in%20synthesis.png" alt="Logo" width="400" height="300">
     </a>
 <br /> 
   After the synthesis step is done, we continued with the floorplanning and placement steps to see graphically if our new cell is included in the design using Magic. As can be seen in the figure below, our new cell is included in picorv32a design. <br/>
   <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/generated%20picorv32a%20including%20our%20cell.png">
-    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/generated%20picorv32a%20including%20our%20cell.png" alt="Logo" width="200" height="400">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/generated%20picorv32a%20including%20our%20cell.png" alt="Logo" width="400" height="300">
     </a>
 <br /> 
  <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/our%20sky130_vsdinv%20in%20picorv32a.png">
-    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/our%20sky130_vsdinv%20in%20picorv32a.png" alt="Logo" width="200" height="400">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/our%20sky130_vsdinv%20in%20picorv32a.png" alt="Logo" width="400" height="300">
     </a>
 <br />   
