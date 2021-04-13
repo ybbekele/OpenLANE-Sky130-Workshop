@@ -27,7 +27,7 @@ Then the preparation step for using OpenLANE follows which is used mainly to pre
   3. use command prep -design <design_name>, which is picorv32a in our case <br />
     <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png">
-    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png" alt="Logo" width="300" height="300">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/preparation.png" alt="Logo" width="200" height="300">
   </a>
       <br />
       
