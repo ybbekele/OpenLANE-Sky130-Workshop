@@ -86,3 +86,9 @@ This generates the .lef file that we include in our design (picorv32a). The foll
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/our%20sky130_vsdinv%20in%20picorv32a.png" alt="Logo" width="400" height="300">
     </a>
 <br />   
+The other task that was part of Day 4's lab was using OpenSTA to do static timing analysis on the design that we generated previously in this lab. For this an pre_sta.conf file is generated which is used to capture the parameters that we wanted to monitor/modify in the primary goal of reducing the slack in our design. These tasks are basically trial and error kind procedures whichare usually done by checking our desig for cells/components producing bigger delay values and do some modifications on those. In addition, we can also change the synthesis/palcement configuration parameters to see their effect on the output slack of our design run. The figure below shows the modification on the slack value that we got as compared to the initial slack value of -17.6 by modifying the SYNTH_SIZING and SYNTH_STRATEGY configuration parameters. <br/>
+ <p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/optimize%20synthesis%20to%20reduce%20setup%20time%20violations.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%204/Images/optimize%20synthesis%20to%20reduce%20setup%20time%20violations.png" alt="Logo" width="400" height="300">
+    </a>
+<br />    
