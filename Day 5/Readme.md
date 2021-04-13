@@ -36,5 +36,19 @@ TritonRoute is an open source detailed router for modern industrial designs. The
 ### Lab Exercises
 The first step in the lab exercises is to build the power distribution network prior to routing. This is done using the command: <br/>
                gen_pdn <br/>
-
+The figure below shows the output after running the above command: <br/>
+<p align="left">
+  <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%205/Images/build%20power%20distribution%20network.png">
+    <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Day%205/Images/build%20power%20distribution%20network.png" alt="Logo" width="300" height="300">
+    </a>
+<br /> 
+We then run the routing of our design using the command:<br/>
+  run_routing <br/>
+The routing process is divided into two sub-processes:<br/>
+  * Global routing <br/>
+  * Detailed routing<br/>
+The global routing is done using FastRoute which prepares the design for a detailed routing by TritonRoute. Once the routing is done, the last step is post-PnR STA. For this we can go through different mechanisms including the Standard Parasitic Exchange Format (SPEF) Extractor which is an IEEE standard for representing parasitic data of wires in a chip in ASCII format. Currently the SPEF Extractor is not included in OpenLANE flow but for this lab we used an external SPEF Extractor to get this information. The iputs for the SPEF Extractor are: <br/>
+* .lef file
+* .def file 
+The SPEF extraction produces a .spef file in our routing results folder.
             
