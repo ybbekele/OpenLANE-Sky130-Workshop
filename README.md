@@ -116,6 +116,6 @@ For more information on openLANE, please refer to these resources: <br />
 
 Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd) <br />
 Nickson Jose - Teaching Assistant <br />
-Praharsha - Teaching Assistant <br />
+Praharsha Mahurkar- Teaching Assistant <br />
 Akurathi Radhika - Teaching Assistant <br />
 Tim Edwards - Founder (Opencircuitdesign) <br />
