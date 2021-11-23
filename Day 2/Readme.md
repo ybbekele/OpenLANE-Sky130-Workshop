@@ -112,3 +112,13 @@ Inside the results/placement directory (containing md5.placement.def), run the f
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png" alt="Logo" width="400" height="300">
     </a>
 <br />
+Standard Cell Characterization
+
+Standard Cell Libraries consist of cells with different functionality/drive strengths. These cells need to be characterized by liberty files to be used by synthesis tools to determine optimal circuit arrangement. The open-source software GUNA is used for characterization.
+Cell Design Flow
+
+The three stages of Standard cell design flow are:-
+
+    Inputs: PDKs, DRC & LVS rules, SPICE models, Library and User-defined specifications.
+    Design: Circuit Design, Layout Design, Standard cell Characterization (performed by GUNA). Types of characterization includes Timing characterization, Power characterization and Noise characterization.
+    Outputs: CDL (Circuit Description Language), GDSII, LEF, extracted Spice netlist (.cir).
