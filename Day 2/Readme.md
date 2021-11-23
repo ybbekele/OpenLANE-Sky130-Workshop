@@ -65,7 +65,13 @@ After a brief running time, the floorplanning will be finalized and reports/logs
 
 ![Image description](https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Result%20form%20floor%20plan-%20die%20area.png)
 In addition, we have seen on how to use Magic to review the floor plan layout (which is shown below for our design) and how to see various parameters related to that.
+For viewing Floorplan on Magic Layout Tool, 3 files are needed as inputs:-
 
+    Magic technology file (sky130A.tech)
+    DEF file of floorplan (picorv32a.floorplan.def)
+    Merged LEF file (merged.lef)
+
+Inside the results/floorplan directory (containing picorv32a.floorplan.def), run the following command:
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Floorplan%20layout%20from%20magic1.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Floorplan%20layout%20from%20magic1.png" alt="Logo" width="400" height="300">
