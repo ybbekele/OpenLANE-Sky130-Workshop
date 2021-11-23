@@ -7,6 +7,25 @@ These parameters are used to describe the utilization of our design from the spe
    Aspect ratio (AR): defines the ratio of the width to height of the chip. The aspect ratio should take into account the number of routing resources available. If there are more horizontal layers, then the rectangle should be long and width should be small and vice versa if there are more vertical layers in the design. <br/>
 
    Utilization Factor: is defined as the percentage of the area that has been utilized in the chip. In the initial stages of the floorplan design, if the size of the chip is unknown, then the starting point of the floorplan design is utilization.<br/>
+   
+    Inputs for floorplanning: 
+    - Gate level Netlist
+    - Libraries (.lef &.lib)
+    - Constraints 
+     Outputs of floorplan: floorplan of the design in the form of DEF file
+
+    During floorplanning, following steps are to be done:
+
+    Initialization of a floorplan of appropriate dimension
+    Placement of I/O pins
+    Macro placement considering the communication between them through fly lines.
+    Creation of power straps.
+    Applying appropriate placement blockages near the macros, near the I/O pins, densely packed cell areas etc.
+    Pre-Placement of Tap cells, switch cells, ESD cells, Isolation cells for Low power design-LPD
+    Creation of multiple voltage, power domains for LPD 
+    Clustering of level shifter between the different power domain
+    etc
+
 
    For more information refer: https://vlsibasic.blogspot.com/2014/01/floorplaning.html <br/>
 
