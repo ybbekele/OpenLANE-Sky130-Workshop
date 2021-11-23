@@ -68,10 +68,12 @@ In addition, we have seen on how to use Magic to review the floor plan layout (w
 For viewing Floorplan on Magic Layout Tool, 3 files are needed as inputs:-
 
     Magic technology file (sky130A.tech)
-    DEF file of floorplan (picorv32a.floorplan.def)
+    DEF file of floorplan (md5.floorplan.def)
     Merged LEF file (merged.lef)
 
 Inside the results/floorplan directory (containing picorv32a.floorplan.def), run the following command:
+ magic -T /home/adept007/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read md5.floorplan.def &
+
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Floorplan%20layout%20from%20magic1.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Floorplan%20layout%20from%20magic1.png" alt="Logo" width="400" height="300">
