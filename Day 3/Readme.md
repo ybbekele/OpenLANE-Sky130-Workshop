@@ -36,10 +36,12 @@ It is cloned as shown in figure below
 
     sky130A_inv.mag (obtained from cloning the Git Repo.)
     sky130A.tech (copied from openlane_working_dir/pdks/sky130A/libs.tech/magic to designs/vsdstdcelldesign directory)
+<br />
 
-To view the layout in Magic Tool, the following command is given as shown:- <br />
-	magic -T sky130A.tech sky130_inv.mag 
+	
 Then the next task is to closely analyze the sky130 LEF and basic layers layout using the inverter design that is cloned from the Github repo previously. This is done by invoking Magic using sky130 technology file and the .mag (Magic Circuit Layout) file. The depicted inverter cell is shown below:<br />
+	To view the layout in Magic Tool, the following command is given as shown:- <br />
+	magic -T sky130A.tech sky130_inv.mag <br />
   <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Inverter%20after%20invoking%20magic1.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Inverter%20after%20invoking%20magic1.png" alt="Logo" width="400" height="300">
