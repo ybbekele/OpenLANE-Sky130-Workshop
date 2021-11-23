@@ -101,10 +101,12 @@ The placement running is shown in figure below <br />
 For viewing Placement on Magic Layout Tool, 3 files are needed as inputs:-
 
     Magic technology file (sky130A.tech)
-    DEF file of Placement (picorv32a.placement.def)
+    DEF file of Placement (md5.placement.def)
     Merged LEF file (merged.lef)
 
-Inside the results/placement directory (containing picorv32a.placement.def), run the following command:<br />
+Inside the results/placement directory (containing md5.placement.def), run the following command:
+   magic -T /home/adept007/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read md5.placement.def &
+<br />
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png" alt="Logo" width="400" height="300">
