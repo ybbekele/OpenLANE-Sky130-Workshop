@@ -104,7 +104,7 @@ For viewing Placement on Magic Layout Tool, 3 files are needed as inputs:-
     DEF file of Placement (md5.placement.def)
     Merged LEF file (merged.lef)
 
-Inside the results/placement directory (containing md5.placement.def), run the following command:
+Inside the results/placement directory (containing md5.placement.def), run the following command: <br />
    magic -T /home/adept007/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read md5.placement.def &
 <br />
 <p align="left">
