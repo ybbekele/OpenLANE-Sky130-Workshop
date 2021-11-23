@@ -95,7 +95,16 @@ The placement running is shown in figure below <br />
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Running%20placement.png" alt="Logo" width="500" height="200">
     </a>
 <br />
-As was done for the floorplanning step, we can investigate further on the placed design using Magic view. The figure below shows how Magic depicts our placed design. <br />
+   Output of Placement Stage: A DEF (Design Exchange Format) file 
+ Viewing Placement in Magic
+
+For viewing Placement on Magic Layout Tool, 3 files are needed as inputs:-
+
+    Magic technology file (sky130A.tech)
+    DEF file of Placement (picorv32a.placement.def)
+    Merged LEF file (merged.lef)
+
+Inside the results/placement directory (containing picorv32a.placement.def), run the following command:<br />
 <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/Placement%20from%20magic.png" alt="Logo" width="400" height="300">
