@@ -48,7 +48,15 @@ Then the next task is to closely analyze the sky130 LEF and basic layers layout 
     </a>
 <br />
 After opening the cell design in Magic, we have seen how to analyse the design through the different commands and buttons in Magic.<br /> 
-The next task is to generate a spice file from the Magic design we have. The generated Spice file is shown below:<br />
+The next task is to generate a spice file from the Magic design we have. <br />
+	  Parasitic Extraction in Magic
+
+Extraction of Parasitic .spice file is done in the tkcon window of Magic by the use of the following commands:-
+
+    extract all command to create the .ext (extraction) file.
+    ext2spice command to create the .spice file from the .ext file.<br />
+
+	  The generated Spice file is shown below:<br />
  <p align="left">
   <a href="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/extracted%20spice%20file%20from%20magic.png">
     <img src="https://github.com/ybbekele/OpenLANE-Sky130-Workshop/blob/main/Images/extracted%20spice%20file%20from%20magic.png" alt="Logo" width="400" height="300">
