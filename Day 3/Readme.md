@@ -76,8 +76,16 @@ The plot for the output signal (Y) and input signal (a) as a function of time is
 <br />
 Using this plot, we tried to characterize the inverter circuit that we designed for various characterization parameters such as: <br />
    
-   1. Transition time (rise and fall) usually measured 20% - 80% <br />
-   2. Propagation delay (rise and fall) usually measured at 50% ouput to input <br />
+   Characterization of the Cell<br />
+
+The plot was used to compute the 4 parameters which intricately define the inverter designed in question, this is called characterization of the cell. They are:-<br />
+
+    Rise Time: The time taken for the signal to go from 20% of its max value to 80% of its max value.<br />
+    Fall Time: The time taken for the signal to go from 80% of its max value to 20% of its max value.<br />
+    Propagation Delay(Rising): The time difference between the points where the input and output are at 50% of their magnitude when the signal rises from 0V to max value.<br />
+    Propagation Delay(Falling): The time difference between the points where the input and output are at 50% of their magnitude when the signal falls from max value to 0V.<br />
+
+
 
    
 PART II <br />
