@@ -32,7 +32,7 @@ These parameters are used to describe the utilization of our design from the spe
 2. Pre-placed cells <br/>
 Pre-placed cells are cells that are placed manually and won't be affected by the automatic PnR. <br/>
 3. De-coupling Capacitors <br/>
-Decoupling capacitors (decaps) are a popular meansfor reducing power-supply noise in integrated circuits. Since thedecaps are usually inserted in the whitespace of the device layer,decap  management  during  the  floorplanning  stage  is  desirable. On-chip decoupling capacitors(decaps) are widely used to mitigate the power-supply-noise problem. By charging  up during the steady state, decaps canassume the role of the power supply and provide the current needed during the  simultaneous switching of multiple functional blocks.<br/>
+Decoupling capacitors (decaps) are a popular means for reducing power-supply noise in integrated circuits. Since the decaps are usually inserted in the white space of the device layer,decap  management  during  the  floorplanning  stage  is  desirable. On-chip decaps are widely used to mitigate the power-supply-noise problem. By charging  up during the steady state, decaps canassume the role of the power supply and provide the current needed during the  simultaneous switching of multiple functional blocks.<br/>
 4. Power planning <br/>
 The issue of distributing power in a circuit design is one of the issues that is covered in floorplanning. In order to distribute power efficiently in the circuit it is better to use a distributed approach. <br/>
 <p align="left">
