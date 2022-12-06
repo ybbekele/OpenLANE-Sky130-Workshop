@@ -11,20 +11,20 @@ These parameters are used to describe the utilization of our design from the spe
     Inputs for floorplanning: 
     - Gate level Netlist
     - Libraries (.lef &.lib)
-    - Constraints 
-     Outputs of floorplan: floorplan of the design in the form of DEF file
+    - Constraints  <br/>
+     Outputs of floorplan: floorplan of the design in the form of DEF file  <br/>
 
-    During floorplanning, following steps are to be done:
+    During floorplanning, following steps are to be done:  <br/>
 
-    Initialization of a floorplan of appropriate dimension
-    Placement of I/O pins
-    Macro placement considering the communication between them through fly lines.
-    Creation of power straps.
-    Applying appropriate placement blockages near the macros, near the I/O pins, densely packed cell areas etc.
-    Pre-Placement of Tap cells, switch cells, ESD cells, Isolation cells for Low power design-LPD
-    Creation of multiple voltage, power domains for LPD 
-    Clustering of level shifter between the different power domain
-    etc
+    Initialization of a floorplan of appropriate dimension  <br/>
+    Placement of I/O pins  <br/>
+    Macro placement considering the communication between them through fly lines.  <br/>
+    Creation of power straps.  <br/>
+    Applying appropriate placement blockages near the macros, near the I/O pins, densely packed cell areas etc.  <br/>
+    Pre-Placement of Tap cells, switch cells, ESD cells, Isolation cells for Low power design-LPD  <br/>
+    Creation of multiple voltage, power domains for LPD  <br/>
+    Clustering of level shifter between the different power domain  <br/>
+    etc  <br/>
 
 
    For more information refer: https://vlsibasic.blogspot.com/2014/01/floorplaning.html <br/>
